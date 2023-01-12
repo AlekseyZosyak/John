@@ -1,0 +1,24 @@
+
+.header {
+   
+    padding: 27px 60px 0px 0px;
+    margin-bottom: 160px;
+   
+    .header__list {
+        right: 20px;
+        display: flex;
+        justify-content: end;
+        gap: 33px;
+    }
+
+    .header__list a {
+        color: black;
+        padding: 3px;
+        font-weight: 500;
+        font-size: 20px;
+        &:hover {
+            color: $Primary-Color;
+        }
+    }
+   
+}

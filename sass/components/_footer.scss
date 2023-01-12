@@ -1,0 +1,19 @@
+.footer {
+    padding: 10px;
+    margin: 140px 0px 50px 0px;
+&__navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    .footer__navigation-list{
+        display: flex;
+        gap: 35px;
+    }
+}
+
+.footer__text {
+    text-align: center;
+}
+
+
+}

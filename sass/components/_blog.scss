@@ -1,0 +1,32 @@
+.blog {
+    &__title {
+        font-size: 44px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    &__post {
+        margin-top: 40px;
+    }
+    &__post-container {
+        display: flex;
+        flex-direction: column;
+    }
+    &__post-title {
+        margin-bottom: 20px;
+    }
+    &__post-wrapper {
+        margin-bottom: 15px;
+    }
+    &__post-text {
+        margin-bottom: 30px;
+    }
+    &__post-name {
+        color: $Light-Color;
+    }
+    &__post-time {
+        padding-right: 20px;
+        border-right: 1px solid $Light-Color; 
+        margin-right: 20px;
+    }
+
+}
