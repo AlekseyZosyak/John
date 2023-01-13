@@ -67,7 +67,7 @@ li {
   align-items: flex-start;
   padding: 5px;
   margin-bottom: 80px;
-  background-image: url("/img/Ellipse2.svg");
+  background-image: url("../img/Ellipse2.svg");
   background-repeat: no-repeat;
   background-position: top 20px right 13px;
 }
