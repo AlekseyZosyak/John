@@ -3,6 +3,11 @@
   width: 900px;
   margin: 0 auto;
 }
+@media screen and (max-width: 500px) {
+  .container {
+    width: 450px;
+  }
+}
 
 * {
   margin: 0;
@@ -73,14 +78,21 @@ li {
 .hero__title {
   margin-bottom: 40px;
 }
+@media screen and (max-width: 500px) {
+  .hero__title {
+    color: red;
+  }
+}
 .hero__text {
   width: 500px;
   margin-bottom: 40px;
 }
 .hero__link {
-  width: 208px;
+  display: inline-block;
+  width: 220px;
   padding: 9px 20px 12px 20px;
   text-align: center;
+  font-family: "Heebo", sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: white;
