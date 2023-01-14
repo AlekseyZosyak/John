@@ -10,3 +10,4 @@ madalResume.closetMadal.addEventListener('click', modal);
 function modal() {
     madalResume.backgraund.classList.toggle('is-hidden');
 }
+

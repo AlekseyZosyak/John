@@ -1,4 +1,5 @@
 .hero {
+
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -9,22 +10,42 @@
     background-repeat: no-repeat;
     background-position: top 20px right 13px;
     
+    @media screen and ( max-width: 450px ) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-position: top 20px right 63px;
+    }
+    
     &__wrapper {
         display: flex;
         flex-direction:column;
+
+        @media screen and ( max-width: 450px ) {
+            align-items: center;
+        }
     }
+
     &__title {
         margin-bottom: 40px;
-        
-        @media screen and ( max-width: 500px ) {
-                color: red;
-            }
+
+        @media screen and ( max-width: 450px ) {
+            width: 300px;
+            text-align: center;
         }
-  
+    }
+
     &__text {
         width: 500px;
         margin-bottom: 40px;
+
+        @media screen and ( max-width: 450px ) {
+            width: 300px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
     }
+
     &__link {
         display: inline-block;
         width: 220px;
@@ -38,6 +59,11 @@
         border-radius: 2px;
         cursor: pointer;
     }
-   
-
+    
+    &__img {
+        @media screen and ( max-width: 450px ) {
+             margin-bottom: 35px;
+        }
+    }
 }
+  

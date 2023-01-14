@@ -1,18 +1,38 @@
 .works {
+
     padding-top: 30px;
+
     &__title {
         font-weight: 400;
         font-size: 22px;
         line-height: 60px;
+        @media screen and ( max-width: 450px ) {
+            text-align: center;
+        }     
     }
+
     .scale {
         display: inline-block;
         overflow: hidden;  
         border-radius: 7px;
+    
+        @media screen and ( max-width: 450px ) {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .li {
+        align-items: center;
     }
     .icon {
         display: block;
+        @media screen and ( max-width: 450px ) {
+           width: 350px;
+        }
+       
     }
+
     &__element {
         display: flex;
         margin: 30px 0px 15px 0px;
@@ -24,6 +44,9 @@
                 transform: scale(1.1)
             }
         }
+        @media screen and ( max-width: 450px ) {
+            flex-direction: column;
+        }
     }
 
 
@@ -31,6 +54,9 @@
         display: flex;
         flex-direction: column;
         margin-left: 30px;
+        @media screen and ( max-width: 450px ) {
+            margin-left: 0px;
+        }
     }
 
     &__element-title {
@@ -56,6 +82,11 @@
     }
     &__element-text {
         width: 590px;
+
+        @media screen and ( max-width: 450px ) {
+            width: 300px;
+            
+        } 
     }
     .element__wrapper {
         margin-bottom: 15px;
