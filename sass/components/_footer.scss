@@ -17,5 +17,9 @@
     .footer__text {
         text-align: center;
     }
+    .icon:hover .svg {
+        fill: $Secondry-Color;
+    }
+    
 }
 
