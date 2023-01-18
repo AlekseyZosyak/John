@@ -115,16 +115,22 @@ li {
 }
 .hero__link {
   display: inline-block;
-  width: 220px;
-  padding: 9px 20px 12px 20px;
+  width: 210px;
+  padding: 9px 20px 11px 20px;
   text-align: center;
   font-family: "Heebo", sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: white;
   background-color: #FF6464;
+  border: 1px solid #FF6464;
   border-radius: 2px;
   cursor: pointer;
+}
+.hero__link:hover {
+  background-color: transparent;
+  border: 1px solid #FF6464;
+  color: #FF6464;
 }
 @media screen and (max-width: 450px) {
   .hero__img {
@@ -317,6 +323,9 @@ li {
 }
 .footer .footer__text {
   text-align: center;
+}
+.footer .icon:hover .svg {
+  fill: #00A8CC;
 }
 
 .blog__title {
