@@ -17,9 +17,18 @@
     .footer__text {
         text-align: center;
     }
-    .icon:hover .svg {
-        fill: $Secondry-Color;
+    // .icon:hover .svg {
+    //     fill: $Secondry-Color;
+    // }
+    .icon {
+        display: inline-block;
     }
-    
+    .test {
+        width: 30px;
+        height: 30px;
+        &:hover {
+            fill: $Secondry-Color;
+        }
+    }
 }
 

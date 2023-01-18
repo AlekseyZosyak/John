@@ -324,7 +324,14 @@ li {
 .footer .footer__text {
   text-align: center;
 }
-.footer .icon:hover .svg {
+.footer .icon {
+  display: inline-block;
+}
+.footer .test {
+  width: 30px;
+  height: 30px;
+}
+.footer .test:hover {
   fill: #00A8CC;
 }
 
